@@ -4,6 +4,11 @@ SendMode Input
 ~End::ExitApp
 ~X::Reload
 
+;HotKey for functions
+F1::akRecoil()
+F2::mp5Recoil()
+
+akRecoil() {
 ~LButton::
 Loop 8
 
@@ -252,4 +257,264 @@ Return
 mouseXY(x,y)
 {
 DllCall("mouse_event",int,1,int,x,int,y,uint,0,uint,0)
+}
+}
+
+mp5Recoil() {
+~LButton::
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.125361,1.052446)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(0.099548,0.931548)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.027825,0.954094)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(0.013715,0.851504)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(0.007947,1.070579)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.096096,1.018017)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(0.045937,0.794216)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.034316,1.112618)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(0.003968,0.930040)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(0.009403,0.888503)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.140813,0.970807)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(0.015052,1.046551)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.095699,0.860475)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(0.269643,1.038896)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.125361,1.052446)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.000285,0.840478)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.018413,1.038126)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.099191,0.851701)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.199659,0.893041)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(0.082660,1.069278)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.006826,0.881493)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.091709,1.150956)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(0.108677,0.965513)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.169612,1.099499)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(0.038244,1.120084)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(0.085513,0.876956)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.136279,1.047589)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.196392,1.039977)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(0.152513,1.209291)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(0.214510,0.956648)
+	}
+	else
+	break
+Loop 8
+
+	If GetKeyState("LButton", "P") {
+			Sleep 1
+			mouseXY(-0.034276,0.095177)
+	}
+	else
+	break
+
+Return
+
+mouseXY(x,y)
+{
+DllCall("mouse_event",int,1,int,x,int,y,uint,0,uint,0)
+}
 }
